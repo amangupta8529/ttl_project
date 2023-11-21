@@ -1,0 +1,165 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: rgb(245, 240, 240);
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 1px auto;
+    padding: 8px;
+    background-color: #181717;
+}
+
+.navbar .line {
+    order: 2;
+    margin-right: 30px;
+    border-left: 2px solid yellow;
+}
+
+.logo {
+    order: 1;
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+}
+
+.heading {
+    margin: 6px auto;
+    /* margin-right: 60px; */
+    color: aliceblue;
+    order: 3;
+}
+
+.btn {
+    order: 4;
+    margin: 15px auto;
+}
+
+.navbar button {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(238, 219, 13);
+    width: 80px;
+    height: 35px;
+    border-radius: 10px;
+    margin-left: 25px;
+}
+
+.profile-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.coverImage {
+    width: 100%;
+}
+
+.coverImage img {
+    margin: 0;
+    width: 100%;
+    height: 180px;
+}
+
+.profile-image {
+    margin: -45px 20px;
+}
+
+.profile-image img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+.profile-details_1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.profile-stats {
+    display: flex;
+    flex-direction: row;
+    margin: -17px 132px;
+    padding: 15px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.profile-stats div {
+    margin: 2px;
+    padding: 4px;
+    font-size: 14px;
+    text-align: center;
+    color: grey;
+}
+
+.profile-stats button {
+    border: 2px solid rgb(96, 94, 94);
+    background-color: white;
+    border-radius: 10px;
+    width: 70px;
+    height: 30px;
+    font-size: 18px;
+    color: rgb(121, 114, 114);
+}
+
+.profile-details_2 {
+    display: flex;
+    flex-direction: column;
+    margin: 2px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.profile-details_2 .bio {
+    color: rgb(45, 45, 45);
+}
+
+a {
+    text-decoration: none;
+}
+
+.instagram {
+    display: flex;
+    flex-direction: row;
+}
+
+.instagram img {
+    margin: 0;
+    padding: 0;
+    height: 25px;
+    width: 25px;
+}
+
+.instagram a {
+    font-size: 15px;
+    padding: 3px;
+    color: blue;
+}
+
+.profile-details_2 .icons {
+    display: flex;
+    flex-direction: row;
+}
+
+.icons img {
+    width: 20px;
+    height: 20px;
+}
+
+.icon {
+    display: flex;
+    flex-direction: row;
+    /* border: 2px solid red; */
+    margin: 0;
+    padding: 2px;
+}
+
+.icon span {
+    margin: auto;
+    padding: 4px;
+    font-size: 13px;
+}
